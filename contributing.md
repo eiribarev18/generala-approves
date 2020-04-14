@@ -76,6 +76,7 @@ Below are some rules you should follow when editing CSS code. The CSS code **MUS
 - A `;` should be put after **every** line of code.
 - There should be a space between the `:` after the property name and its value.
 - Colours should be specified using their hex code `#rrggbb` (`#ff0000` instead of `rgb(255,0,0)`) or `#rrggbbaa`.
+- There should be an empty line between rulesets
 
 Example:
 ```css
@@ -83,12 +84,18 @@ p {
 	margin: 0px;
 	color: #ff0000;
 }
+
+h1 {
+	margin: 0px;
+	color: #ff0000ee;
+}
 ```
 instead of
 ```css
 p{
 margin:0px;
-color:#ff0000}
+color:red}
+h1{margin:0px; color:rgba(255, 0, 0, 1)}
 ```
 
 ### JavaScript Conventions
