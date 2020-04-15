@@ -1,0 +1,16 @@
+.divSetting{
+height:265px;
+width: auto;
+overflow:visible;
+border: none;
+overflow-x:hidden;
+overflow-y:auto;
+margin-top: 15px;
+}
+.tableSettings{
+	border: 1px black solid;
+}
+.fontSettings{
+	font-size: 11px;
+}
+
