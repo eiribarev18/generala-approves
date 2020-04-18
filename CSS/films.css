@@ -74,4 +74,6 @@ ul {
 	  color:white;
 	  transition-duration:0.2s;
 	  transform: scale(1.2, 1.2);
+	  margin-right:15px;
+	  margin-left:15px;
   }
