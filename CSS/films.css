@@ -1,12 +1,12 @@
 @font-face {
 	font-family: Crimson_Text;
-	src: url(CrimsonText-Regular.ttf);
+	src: url(../Assets/CrimsonText-Regular.ttf);
   }
 
 body{
 	background-color:#141414;
 	font-family:Crimson_Text;
-	background-image:url("stars.png");
+	background-image: url("../Assets/stars.png");
 	background-repeat: repeat;
 }
 a{
