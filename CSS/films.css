@@ -124,7 +124,5 @@ ul {
 	background-color:#82d6a8;
 	color:white;
 	transition-duration:0.2s;
-	transform: scale(1.2, 1.2);
-	margin-right:15px;
-	margin-left:15px;
+	transform: scale(1.05, 1.05);
 }
