@@ -1,0 +1,9 @@
+div.movies > div.grid > :nth-child(1),
+div.movies > div.grid > :nth-child(5) {
+    grid-column: auto / span 2;
+}
+
+div.movies > .grid > :nth-child(1):hover,
+div.movies > div.grid > :nth-child(5):hover {
+	transform: scale(1.02);
+}
