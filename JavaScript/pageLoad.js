@@ -1,8 +1,8 @@
 function load()
 {
-    var cards = document.getElementsByClassName("card");
+    var gridItems = document.querySelectorAll(".grid > *");
 
-    for (var card of cards){
-        card.style.transition = "0.5s";
+    for (var item of gridItems){
+        item.style.transition = "0.5s";
     }
 }
