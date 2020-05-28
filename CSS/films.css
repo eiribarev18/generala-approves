@@ -113,7 +113,6 @@ ul {
 
   .flex-container-2 > div {
 	font-weight: bold;
-	background-color: #f1f1f1;
 	width: 18vw;
 	height:10vw;
 	margin: 20px;
@@ -159,13 +158,12 @@ ul {
 	transition: .2s ease;
 	background-color: #98c1d9;
 	border-radius:15px;
+	text-align: left;
   }
 
   .flex-container-2 > div:hover .overlay {
 	opacity: 1;
   }
 
-.p{
 
-}
 
