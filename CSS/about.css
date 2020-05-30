@@ -42,8 +42,8 @@ div{
 
 .submit-btn{
 	cursor:pointer;
-	border-color: #ff3333;
-	background-color: #ff5050;
+	border-color: #009900;
+	background-color: #00cc00;
 	width:150px !important;
 	height:40px;
 	margin-left: 18px !important;
@@ -74,4 +74,8 @@ ul {
   li a:hover {
 	text-decoration:underline;
 	transition-duration:0.2s;
+  }
+
+  .fontcolor{
+	  color:#ffffe6;
   }
