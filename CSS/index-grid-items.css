@@ -1,0 +1,34 @@
+/* Action */
+.movies > div.grid > *:nth-child(1) {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMTQ2NjUwMjcwOF5BMl5BanBnXkFtZTgwMTQwNzgwMDE@._V1_.jpg");
+}
+
+/* Animation */
+.movies > div.grid > *:nth-child(2) {
+	background-image: url("https://www.iamag.co/wp-content/uploads/2018/04/cover-coco.jpg");
+}
+
+/* Comedy */
+.movies > div.grid > *:nth-child(3) {
+	background-image: url("https://ohthatfilmblog.files.wordpress.com/2015/08/trainwreck-2015-teaser-wallpapers.jpg");
+}
+
+/* Fantasy */
+.movies > div.grid > *:nth-child(4) {
+	background-image: url("https://filmschoolrejects.com/wp-content/uploads/2019/04/battle-of-hogwarts-1-1280x720.jpg");
+}
+
+/* Historical Fiction */
+.movies > div.grid > *:nth-child(5) {
+	background-image: url("https://i.ytimg.com/vi/F-eMt3SrfFU/maxresdefault.jpg");
+}
+
+/* Romance */
+.movies > div.grid > *:nth-child(6) {
+	background-image: url("https://berlinfilmjournal.com/wp-content/uploads/2017/03/Linklater-Retrospective-Before-Sunrise-Makes-Us-Ache-In-All-The-Right-Places--1170x659.jpg");
+}
+
+/* Sci-Fi */
+.movies > div.grid > *:nth-child(7) {
+	background-image: url("https://media.aintitcool.com/media/uploads/2015/papa_vineyard/interstellar-barren2_large.jpg");
+}
