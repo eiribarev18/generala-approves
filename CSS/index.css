@@ -52,3 +52,11 @@
 .grid > *:hover {
 	transform: scale(1.04);
 }
+
+.two-wide {
+    grid-column: auto / span 2;
+}
+
+.two-wide:hover {
+	transform: scale(1.02);
+}
