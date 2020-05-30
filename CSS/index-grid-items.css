@@ -1,3 +1,47 @@
+/* ---------------------- Games ---------------------- */
+
+/* Adventure */
+.games > div.grid > *:nth-child(1) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/346110/ss_164a92a53f9bcbb728b391fc0719f9769c2e1249.1920x1080.jpg");
+}
+
+/* Indie */
+.games > div.grid > *:nth-child(2) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/431940/ss_c270c40fef475306769f9d85547c51ffc4853534.1920x1080.jpg");
+}
+
+/* Racing */
+.games > div.grid > *:nth-child(3) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/520950/ss_25a41a0494055a50492570809c868dfa1961da8d.1920x1080.jpg");
+}
+
+/* Simulation */
+.games > div.grid > *:nth-child(4) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/24010/ss_d47e7bf8cc16546247db901192b5d7cbed6ab360.1920x1080.jpg");
+}
+
+/* RPG */
+.games > div.grid > *:nth-child(5) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg");
+}
+
+/* Strategy */
+.games > div.grid > *:nth-child(6) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/231430/ss_253565696b43f08520ea65dc805cda964ee0976e.1920x1080.jpg?t=1581092141");
+}
+
+/* Free */
+.games > div.grid > *:nth-child(7) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/8500/ss_d8660254753b63b0fcc83869df4c91aa71b5eddf.1920x1080.jpg?t=1590498818");
+}
+
+/* FPS */
+.games > div.grid > *:nth-child(8) {
+	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/202970/ss_ac2194dfb623d65003f54450fb1824e5f181b27e.1920x1080.jpg?t=1589832334");
+}
+
+/* ---------------------- Movies ---------------------- */
+
 /* Action */
 .movies > div.grid > *:nth-child(1) {
 	background-image: url("https://m.media-amazon.com/images/M/MV5BMTQ2NjUwMjcwOF5BMl5BanBnXkFtZTgwMTQwNzgwMDE@._V1_.jpg");
