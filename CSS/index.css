@@ -44,6 +44,10 @@ body{
 	background-color: #5566ff
 }
 
+.shows {
+	background-color: #9c50ff;
+}
+
 .grid {
 	display: grid;
 	grid-auto-flow: dense;
