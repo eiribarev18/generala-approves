@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -70,6 +74,10 @@
 	transition: 0s;
 }
 
+.books > div.grid > * {
+	min-height: 152px;
+}
+
 .grid > *:hover {
 	transform: scale(1.04);
 }
@@ -80,6 +88,59 @@
 
 .two-wide:hover {
 	transform: scale(1.02);
+}
+
+nav {
+	display: flex;
+
+	justify-content: flex-end;
+	flex-wrap: wrap;
+
+	background-color: #222222;
+}
+
+nav > * {
+	margin: 5px;
+	padding: 5px 10px;
+
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #888888;
+
+	transition: 0.25s;
+}
+
+nav > *:hover {
+	color: #333333;
+}
+
+nav > *:nth-child(1):hover {
+	background-color: #ff4433bb;
+}
+
+nav > *:nth-child(2):hover {
+	background-color: #33ee33bb;
+}
+
+nav > *:nth-child(3):hover {
+	background-color: #5566ffbb;
+}
+
+nav > *:nth-child(4):hover {
+	background-color: #9c50ffbb;
+}
+
+h1 {
+	margin: 15px 10px;
+}
+
+p.intro-text {
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+
+	font-size: 1.6em;
 }
 
 @media (hover: none) {
