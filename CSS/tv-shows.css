@@ -54,7 +54,7 @@ ul {
   li a {
 	display: block;
 	color: white;
-	font-size:25px;
+	font-size:23px;
 	padding: 8px;
     text-align:center;
 	text-decoration:none;
@@ -62,7 +62,7 @@ ul {
   }
 
   li a:hover {
-	text-decoration:underline;
+	color:#ee6c4d;
 	transition-duration:0.2s;
   }
 
@@ -91,8 +91,6 @@ ul {
 	  color:white;
 	  transition-duration:0.2s;
 	  transform: scale(1.2, 1.2);
-	  margin-right:15px;
-	  margin-left:15px;
   }
 
   .genre-box{
@@ -163,6 +161,21 @@ ul {
 
   .flex-container-2 > div:hover .overlay {
 	opacity: 1;
+  }
+
+  footer {
+	font-size:20px;
+	text-align: center;
+	color: white;
+    padding:3%;
+	bottom:0;
+	height:50px;
+	background: linear-gradient(0deg, rgba(53,82,109,1) 0%, rgba(53,82,109,0.7595238779105392) 20%, rgba(53,82,109,0.5550420851934523) 40%, rgba(53,82,109,0.35896365382090334) 60%, rgba(53,82,109,0.1600841020001751) 80%, rgba(53,82,109,0) 100%);
+}
+
+  span:hover{
+	transition-duration:0.2s;
+	font-size:23px;
   }
 
 
