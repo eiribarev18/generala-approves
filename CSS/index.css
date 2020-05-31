@@ -70,6 +70,10 @@
 	transition: 0s;
 }
 
+.books > div.grid > * {
+	min-height: 152px;
+}
+
 .grid > *:hover {
 	transform: scale(1.04);
 }
