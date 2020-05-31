@@ -40,6 +40,38 @@
 	background-image: url("https://steamcdn-a.akamaihd.net/steam/apps/202970/ss_ac2194dfb623d65003f54450fb1824e5f181b27e.1920x1080.jpg?t=1589832334");
 }
 
+/* ---------------------- Books ---------------------- */
+
+/* Sci-Fi */
+.books > div.grid > *:nth-child(1) {
+	background-image: url("https://walkingonreddust.files.wordpress.com/2015/09/cover.jpg");
+}
+
+/* Fantasy */
+.books > div.grid > *:nth-child(2) {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/8134AkhQJgL.jpg");
+}
+
+/* Comic */
+.books > div.grid > *:nth-child(3) {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/51GgmyZXn4L._SX319_BO1,204,203,200_.jpg");
+}
+
+/* Historical Fiction */
+.books > div.grid > *:nth-child(4) {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/41TxXqToCCL._SX348_BO1,204,203,200_.jpg");
+}
+
+/* Horror */
+.books > div.grid > *:nth-child(5) {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/51tR1ywx39L._SX301_BO1,204,203,200_.jpg");
+}
+
+/* Romance */
+.books > div.grid > *:nth-child(6) {
+	background-image: url("https://images-na.ssl-images-amazon.com/images/I/51zOyuFJC1L._SX306_BO1,204,203,200_.jpg");
+}
+
 /* ---------------------- Movies ---------------------- */
 
 /* Action */
@@ -75,4 +107,26 @@
 /* Sci-Fi */
 .movies > div.grid > *:nth-child(7) {
 	background-image: url("https://media.aintitcool.com/media/uploads/2015/papa_vineyard/interstellar-barren2_large.jpg");
+}
+
+/* ---------------------- Shows ---------------------- */
+
+/* Action */
+.shows > div.grid > *:nth-child(1) {
+	background-image: url("../Assets/Photos/strike-back.jpg");
+}
+
+/* Animation */
+.shows > div.grid > *:nth-child(2) {
+	background-image: url("../Assets/Photos/spongebob.jpg");
+}
+
+/* Comedy */
+.shows > div.grid > *:nth-child(3) {
+	background-image: url("../Assets/Photos/modern-family.jpg");
+}
+
+/* Crime */
+.shows > div.grid > *:nth-child(4) {
+	background-image: url("../Assets/Photos/breaking-bad2.jpg");
 }
