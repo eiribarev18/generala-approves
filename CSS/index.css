@@ -15,9 +15,17 @@ body{
 
 .flex-container {
 	display: flex;
+
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	background-attachment: fixed;
+	background-image: url("../Assets/stars.png");
+	background-repeat: repeat;;
 }
 
 .flex-item {
