@@ -4,6 +4,7 @@
   }
 
 body{
+	margin:0;
 	background-color:#141414;
 	font-family: Arial, Helvetica, sans-serif;
 
@@ -42,7 +43,7 @@ h2{
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 1%;
 	padding: 0;
 	overflow: hidden;
   }
@@ -54,7 +55,7 @@ ul {
   li a {
 	display: block;
 	color: white;
-	font-size:25px;
+	font-size:23px;
 	padding: 8px;
     text-align:center;
 	text-decoration:none;
@@ -62,7 +63,7 @@ ul {
   }
 
   li a:hover {
-	text-decoration:underline;
+	color:#ee6c4d;
 	transition-duration:0.2s;
   }
 
@@ -91,8 +92,62 @@ ul {
 	  color:white;
 	  transition-duration:0.2s;
 	  transform: scale(1.2, 1.2);
-	  margin-right:15px;
-	  margin-left:15px;
+  }
+
+  .flex-container > div:nth-child(1):hover{
+	background-color:#35526d;
+  }
+
+  .flex-container > div:nth-child(2):hover{
+	background-color:#81b29a;
+  }
+
+  .flex-container > div:nth-child(3):hover{
+	background-color:#e07a5f;
+  }
+
+  .flex-container > div:nth-child(4):hover{
+	background-color:#e9c46a;
+  }
+
+  .flex-container > div:nth-child(5):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(6):hover{
+	background-color:#35526d;
+  }
+
+  .flex-container > div:nth-child(7):hover{
+	background-color:#81b29a;
+  }
+
+  .flex-container > div:nth-child(8):hover{
+	background-color:#e9c46a;
+  }
+
+  .flex-container > div:nth-child(9):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(10):hover{
+	background-color:#35526d;
+  }
+
+  .flex-container > div:nth-child(11):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(12):hover{
+	background-color:#e07a5f;
+  }
+
+  .flex-container > div:nth-child(13):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(14):hover{
+	background-color:#35526d;
   }
 
   .genre-box{
@@ -163,6 +218,21 @@ ul {
 
   .flex-container-2 > div:hover .overlay {
 	opacity: 1;
+  }
+
+  footer {
+	font-size:20px;
+	text-align: center;
+	color: white;
+    padding:3%;
+	bottom:0;
+	height:50px;
+	background: linear-gradient(0deg, rgba(53,82,109,1) 0%, rgba(53,82,109,0.7595238779105392) 20%, rgba(53,82,109,0.5550420851934523) 40%, rgba(53,82,109,0.35896365382090334) 60%, rgba(53,82,109,0.1600841020001751) 80%, rgba(53,82,109,0) 100%);
+}
+
+  span:hover{
+	transition-duration:0.2s;
+	font-size:23px;
   }
 
 
