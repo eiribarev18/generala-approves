@@ -130,6 +130,19 @@ nav > *:nth-child(4):hover {
 	background-color: #9c50ffbb;
 }
 
+h1 {
+	margin: 15px 10px;
+}
+
+p.intro-text {
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+
+	font-size: 1.6em;
+}
+
 @media (hover: none) {
 	.grid .overlay {
 		opacity: 1;
