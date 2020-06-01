@@ -130,3 +130,18 @@
 .shows > div.grid > *:nth-child(4) {
 	background-image: url("../Assets/Photos/breaking-bad2.jpg");
 }
+
+/* Fantasy */
+.shows > div.grid > *:nth-child(5) {
+	background-image: url("https://www.indiewire.com/wp-content/uploads/2019/02/9e5508d6-282b-4aa8-b766-83f1a328b6bd.jpeg");
+}
+
+/* Historical */
+.shows > div.grid > *:nth-child(6) {
+	background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2018%2F09%2Fvictoria2-2000.jpg&q=85");
+}
+
+/* Sci-Fi */
+.shows > div.grid > *:nth-child(7) {
+	background-image: url("https://pmcvariety.files.wordpress.com/2020/05/westworld-season-3-episode-8.jpg?w=681&h=383&crop=1");
+}
