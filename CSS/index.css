@@ -63,9 +63,9 @@ body {
 	align-items: center;
 	text-align: center;
 
-	opacity: 0;
+	opacity: 0.75;
 
-	background-color: #222222a0;
+	background-color: #222222c0;
 
 	transition: 0.5s;
 }
@@ -172,12 +172,6 @@ p.intro-text {
 	margin-bottom: 0px;
 
 	font-size: 1.6em;
-}
-
-@media (hover: none) {
-	.grid .overlay {
-		opacity: 1;
-	}
 }
 
 @media only screen and (max-width: 550px) {
