@@ -99,6 +99,25 @@ ul {
   }
 
   .flex-container > div:nth-child(2):hover{
+<<<<<<< HEAD
+	background-color:#81b29a;
+  }
+
+  .flex-container > div:nth-child(3):hover{
+	background-color:#e07a5f;
+  }
+
+  .flex-container > div:nth-child(4):hover{
+	background-color:#e9c46a;
+  }
+
+  .flex-container > div:nth-child(5):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(6):hover{
+	background-color:#35526d;
+=======
 	background-color:#e9c46a;
   }
 
@@ -116,6 +135,7 @@ ul {
 
   .flex-container > div:nth-child(6):hover{
 	background-color:#e07a5f;
+>>>>>>> da5075e4cf6b3ba942534398e8da26e15ab1cf34
   }
 
   .flex-container > div:nth-child(7):hover{
@@ -135,6 +155,23 @@ ul {
   }
 
   .flex-container > div:nth-child(11):hover{
+<<<<<<< HEAD
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(12):hover{
+	background-color:#e07a5f;
+  }
+
+  .flex-container > div:nth-child(13):hover{
+	background-color:#98c1d9;
+  }
+
+  .flex-container > div:nth-child(14):hover{
+	background-color:#35526d;
+  }
+
+=======
 	background-color:#e07a5f;
   }
 
@@ -148,6 +185,7 @@ ul {
 
 
 
+>>>>>>> da5075e4cf6b3ba942534398e8da26e15ab1cf34
   .genre-box{
   width:100%;
   height:100%;
