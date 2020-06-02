@@ -27,21 +27,7 @@ body {
 	margin: 10px;
 }
 
-.games {
-	background-color: #ff4433;
-}
 
-.books {
-	background-color: #33ee33
-}
-
-.movies {
-	background-color: #5566ff
-}
-
-.shows {
-	background-color: #9c50ff;
-}
 
 .grid {
 	display: grid;
