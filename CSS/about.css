@@ -1,8 +1,6 @@
 body{
 	margin:0;
 	padding:0;
-	font-family:sans-serif;
-	background-color:#8b383871;
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url("../Assets/stars.png");
 	background-repeat: repeat;
@@ -11,6 +9,13 @@ body{
 h2{
 	margin-top:0;
 	text-align:center;
+	font-size:26px;
+}
+
+h3{
+	font-size:22px;
+	text-align:center;
+	margin-bottom:3%;
 }
 
 a{
@@ -18,89 +23,40 @@ a{
 	color:inherit;
 }
 
+
 .aboutus{
-	padding:5%;
+	color:white;
+	padding:1%;
 	border-radius: 32px;
 	box-shadow:  0 0 4px 0 rgba(160, 28, 28, 0.829);
-	background-color:rgba(224,122,95,0.7);
+	background-color:rgba(129, 178, 154, 0.7);
 	margin: 50px auto;
 	width:75%;
-	text-align: center;
+	text-align: justify;
 }
 
-div{
-	opacity:0.9;
-	border-radius: 32px;
-	box-shadow:  0 0 4px 0 rgba(160, 28, 28, 0.829);
-	margin: 50px auto;
-	width:350px;
-	text-align: center;
+.inner-div{
+	padding:3%;
+	border: solid white;
+	width:93%;
+	height:100%;
+	border-radius:32px;
 }
 
-form {
-	background: rgba(53,82,109,0.7);
-	padding: 1px;
-	border-radius: 32px;
-	text-align: initial;
-	font-size: 16px;
-	color: rgb(238, 238, 238);
+.inner-div-2{
+	width:80%;
+	height:100%;
+	padding-left:10%;
+	padding-right:10%;
+	font-size:18px;
 }
 
-.formRow {
-	margin-top: 12px;
-}
 
-.formRow p {
-	display: inline-block;
-	margin: 0px;
-	margin-right: 20px;
-	width: calc(50% - 20px);
-	text-align: right;
-}
 
-.formRow textarea {
-	margin-left: 5%;
-	margin-right: 5%;
-	width: calc(90% - 4px);
-	height: 100px;
-	resize: none;
-}
-
-#submitBtn {
-	height: 40px;
-	width: 100px;
-	padding: 0px;
-	margin-left: calc(50% - 50px);
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 18px;
-	background-color: rgb(41, 128, 185);
-	color: rgb(238, 238, 238);
-	border-width: 0px;
-	cursor: pointer;
-}
-
-@media only screen and (max-width: 568px) {
-	/*for when 6% margins would result in the form's width being less than 500px*/
-
-	form {
-		margin-left: 6%;
-		margin-right: 6%;
-	}
-}
-
-@media only screen and (min-width: 569px) {
-	/*effectively sets the max-width of the form to 500px while maintaining allignment*/
-
-	form {
-		width: 500px;
-		margin-left: calc(50% - 250px);
-	}
-}
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 1%;
 	padding: 0;
 	overflow: hidden;
   }
@@ -112,7 +68,7 @@ ul {
   li a {
 	display: block;
 	color: white;
-	font-size:25px;
+	font-size:23px;
 	padding: 8px;
     text-align:center;
 	text-decoration:none;
@@ -124,6 +80,7 @@ ul {
 	transition-duration:0.2s;
   }
 
-  .fontcolor{
-	  color:white;
-  }
+  .inner-div-2 > a:hover{
+	text-decoration:underline;
+	transition:0.2s;
+}

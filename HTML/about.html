@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>About and Contact</title>
+	<title>About</title>
 	<meta charset="utf-8">
 	<script src="../JavaScript/form.js"></script>
 	<link rel="stylesheet" type="text/css" href="../CSS/about.css">
@@ -16,86 +16,62 @@
 		<li><a href="tv-shows.html">TV Shows</a></li>
 		<li><a href="index.html">Home</a></li>
 	</ul>
-	<div class="aboutus">
+	<div class="aboutus"><div class="inner-div">
 
 			<h2 class="fontcolor">About Us:</h2>
 
 		<section class="fontcolor">
 			<h3>
-				Our team includes Afra Yusrefiva, Emil Ribarev, Christina Bolashikova, Reneta Topalska, Svetlana Boyadzhieva, Teodor Karchev.
+				Our team includes Afra Yusrefiva, Emil Ribarev, Christina Bolashikova, Reneta <br> Topalska, Svetlana Boyadzhieva and Teodor Karchev.
 			</h3>
 			</section>
 
+		<div class="inner-div-2">
+
 		<section class="fontcolor">
 			<p>
-				<b>Afra:</b> I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#eab69f"><b>Afra:</b></span> I study in the Vocational School for Computer Programming and Innovation.
 				I am the developer of the <i><a href="tv-shows.html">TV Shows</a></i> page.
 			</p>
 		</section>
 
 		<section class="fontcolor">
 			<p>
-				<b>Emil:</b> I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#dbbea1"><b>Emil:</b> </span>I study in the Vocational School for Computer Programming and Innovation.
 				I am the developer of the <i><a href="index.html">Home</a></i> page.
 			</p>
 		</section>
 
 		<section class="fontcolor">
 			<p>
-				<b>Christina:</b> I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#cbbfbb"><b>Christina:</b></span> I study in the Vocational School for Computer Programming and Innovation.
 				I am the developer of the <i><a href="films.html">Films</a></i> page.
 			</p>
 		</section>
 
 		<section class="fontcolor">
 			<p>
-				<b>Reneta: </b>I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#f2cc8f"><b>Reneta: </b></span>I study in the Vocational School for Computer Programming and Innovation.
 					I am the developer of the <i><a href="games.html">Games</a></i> page.
 			</p>
 		</section>
 
 		<section class="fontcolor">
 			<p>
-				<b>Svetlana:</b> I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#e2eaf0"><b>Svetlana:</b> </span>I study in the Vocational School for Computer Programming and Innovation.
 					I am the developer of the <i><a href="books.html">Books</a></i> page.
 			</p>
 		</section>
 
 		<section class="fontcolor">
 			<p>
-				<b>Teodor: </b>I study in the Vocational School for Computer Programming and Innovation.
+				<span style="color:#e6beae"><b>Teodor: </b></span>I study in the Vocational School for Computer Programming and Innovation.
 					I am the developer of the <i><a href="about.html">About Us</a></i> page.
 			</p>
 		</section>
-	</div>
+        </div>
 
+	</div></div>
 
-	<form id="contactForm">
-		<h2 class="fontcolor">Contact Us:</h2>
-		<div class="formRow">
-			<p>Type:</p>
-			<select name="type" onchange="textareaPlaceholderUpdate();">
-				<option value="Question">Question</option>
-				<option value="Suggestion">Suggestion</option>
-				<option value="Feedback">General Feedback</option>
-			</select>
-		</div>
-		<div class="formRow">
-			<p>Name:</p>
-			<input type="text" name="name" placeholder="Please enter your name" style="width: 120px;">
-		</div>
-		<div class="formRow">
-			<p>Subject:</p>
-			<input type="text" name="subject" placeholder="Please enter a short subject" style="width: 140px;">
-		</div>
-		<div class="formRow">
-			<textarea name="bodytext" placeholder="Please enter your question here"></textarea>
-		</div>
-
-		<input type="button" id="submitBtn" value="Submit" onclick="formsubmit();">
-	</form>
-	<p>
-		Or contact us at: <a id="mailLink" href="mailto:blue.energy@codingburgas.bg" target="_blank">blue.energy@codingburgas.bg</a>
-	</p>
 </body>
 </html>

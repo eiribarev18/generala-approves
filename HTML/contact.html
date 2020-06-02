@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<script src="../JavaScript/form.js"></script>
+	<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/form.css">
+</head>
+<body>
+	<ul>
+
+		<li><a href="books.html">Books</a></li>
+		<li><a href="games.html">Games</a></li>
+		<li><a href="films.html">Films</a></li>
+		<li><a href="tv-shows.html">TV Shows</a></li>
+		<li><a href="index.html">Home</a></li>
+	</ul>
+
+
+	<form id="contactForm">
+		<h2 class="fontcolor">Contact Us:</h2>
+		<div class="formRow">
+			<p>Type:</p>
+			<select name="type" onchange="textareaPlaceholderUpdate();">
+				<option value="Question">Question</option>
+				<option value="Suggestion">Suggestion</option>
+				<option value="Feedback">General Feedback</option>
+			</select>
+		</div>
+		<div class="formRow">
+			<p>Name:</p>
+			<input type="text" name="name" placeholder="Please enter your name" style="width: 120px;">
+		</div>
+		<div class="formRow">
+			<p>Subject:</p>
+			<input type="text" name="subject" placeholder="Please enter a short subject" style="width: 140px;">
+		</div>
+		<div class="formRow">
+			<textarea name="bodytext" placeholder="Please enter your question here"></textarea>
+		</div>
+
+		<input type="button" id="submitBtn" value="Submit" onclick="formsubmit();">
+	</form>
+	<p>
+		Or contact us at: <a id="mailLink" href="mailto:blue.energy@codingburgas.bg" target="_blank">blue.energy@codingburgas.bg</a>
+	</p>
+</body>
+</html>
