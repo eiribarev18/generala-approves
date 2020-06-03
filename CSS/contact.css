@@ -64,8 +64,8 @@ form {
 	flex-grow: 2;
 }
 
-.formRow > .textbox::placeholder, .formRow > textarea::placeholder {
-	font-size: 1.7em;
+.formRow > .textbox, .formRow > textarea {
+	font-size: 1em;
 }
 
 .formRow p {
