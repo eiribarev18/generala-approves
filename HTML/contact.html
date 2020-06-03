@@ -12,15 +12,16 @@
 
 		<li><a href="books.html">Books</a></li>
 		<li><a href="games.html">Games</a></li>
-		<li><a href="films.html">Films</a></li>
 		<li><a href="tv-shows.html">TV Shows</a></li>
+		<li><a href="films.html">Films</a></li>
 		<li><a href="index.html">Home</a></li>
 	</ul>
 
 
 	<form id="contactForm">
+		<div class="inner-div">
 		<h2 class="fontcolor">Contact Us:</h2>
-		<div class="formRow">
+		<div class="formRow red-div">
 			<p>Type:</p>
 			<select name="type" onchange="textareaPlaceholderUpdate();">
 				<option value="Question">Question</option>
@@ -28,22 +29,25 @@
 				<option value="Feedback">General Feedback</option>
 			</select>
 		</div>
-		<div class="formRow">
+		<div class="formRow red-div">
 			<p>Name:</p>
 			<input type="text" name="name" placeholder="Please enter your name" style="width: 120px;">
 		</div>
-		<div class="formRow">
+		<div class="formRow red-div">
 			<p>Subject:</p>
 			<input type="text" name="subject" placeholder="Please enter a short subject" style="width: 140px;">
 		</div>
-		<div class="formRow">
+		<div class="formRow red-div">
 			<textarea name="bodytext" placeholder="Please enter your question here"></textarea>
 		</div>
 
 		<input type="button" id="submitBtn" value="Submit" onclick="formsubmit();">
+
+		</div>
 	</form>
-	<p>
-		Or contact us at: <a id="mailLink" href="mailto:blue.energy@codingburgas.bg" target="_blank">blue.energy@codingburgas.bg</a>
-	</p>
+	<h6>
+		Want to know more about the people who created this website? <br><a href="about.html">You can do it by clicking here!</a>
+	</h6>
+
 </body>
 </html>

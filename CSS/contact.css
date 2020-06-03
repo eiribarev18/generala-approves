@@ -1,16 +1,23 @@
 body{
 	margin:0;
 	padding:0;
-	font-family:sans-serif;
-	background-color:#8b383871;
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url("../Assets/stars.png");
 	background-repeat: repeat;
 }
 
 h2{
-	margin-top:0;
+	margin-top:1%;
 	text-align:center;
+	font-size:26px;
+}
+
+h6{
+	text-align:center;
+	font-size:15px;
+	margin-bottom:5%;
+	color:#f2cc8f;
+	text-shadow:0.5px 0.5px 0px black;
 }
 
 a{
@@ -18,32 +25,27 @@ a{
 	color:inherit;
 }
 
-a:hover{
-	text-decoration:underline;
-}
-
-.aboutus{
-	padding:2%;
-	border-radius: 32px;
-	box-shadow:  0 0 4px 0 rgba(160, 28, 28, 0.829);
-	background-color:rgba(129, 178, 154, 0.7);
-	margin: 50px auto;
-	width:75%;
-	text-align: justify;
-}
-
-div{
+.red-div{
 	opacity:0.9;
 	border-radius: 32px;
-	box-shadow:  0 0 4px 0 rgba(160, 28, 28, 0.829);
+	box-shadow:  0 0 4px 0 rgba(147, 31, 29, 1);
 	margin: 50px auto;
 	width:350px;
 	text-align: center;
 }
 
+.inner-div{
+	padding:3%;
+	border: solid white;
+	width:93%;
+	height:100%;
+	border-radius:32px;
+}
+
 form {
-	background: rgba(53,82,109,0.7);
-	padding: 1px;
+	margin-top:3%;
+	background: rgba(224, 122, 95, 0.7);
+	padding: 1%;
 	border-radius: 32px;
 	text-align: initial;
 	font-size: 16px;
@@ -75,13 +77,13 @@ form {
 	width: 100px;
 	padding: 0px;
 	margin-left: calc(50% - 50px);
-	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 18px;
-	background-color: rgb(41, 128, 185);
+	background-color: rgba(147, 31, 29, 1);
 	color: rgb(238, 238, 238);
 	border-width: 0px;
 	cursor: pointer;
+	border-radius:32px;
 }
 
 @media only screen and (max-width: 568px) {
@@ -104,7 +106,7 @@ form {
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 1%;
 	padding: 0;
 	overflow: hidden;
   }
