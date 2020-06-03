@@ -6,7 +6,7 @@ function formsubmit() {
 	var bodytext = document.getElementById("contactForm").elements["bodytext"].value;
 
 	//generate mailto href
-	var mailtohref = "mailto:blue.energy@codingburgas.bg?";
+	var mailtohref = "mailto:demo@quarantineactivities.bg?";
 	mailtohref += "subject=" + type + ": " + subject;
 	mailtohref += "&body=" + escape(bodytext) + escape("\n\n    - ") + name;
 
